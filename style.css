@@ -1,0 +1,86 @@
+.curriculo-section, .contato-section {
+    max-width: 700px;
+    margin: 0 auto 40px;
+    animation: fadeIn 1s ease forwards;
+    padding: 0 10px;
+}
+
+.curriculo-section h1, .contato-section h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.curriculo-section h2 {
+    margin-top: 20px;
+    color: var(--cor-ativo);
+}
+
+.curriculo-section ul {
+    list-style: disc inside;
+    margin-top: 10px;
+    line-height: 1.5;
+}
+
+.contatos-lista-vertical {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.contatos-lista-vertical li {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+.contatos-lista-vertical a {
+    color: var(--cor-ativo);
+    text-decoration: none;
+    transition: color var(--transicao-suave);
+}
+
+.contatos-lista-vertical a:hover {
+    color: #ffa500;
+}
+
+/* Formulário contato */
+.form-contato {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-contato label {
+    font-weight: bold;
+}
+
+.form-contato input,
+.form-contato textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+    font-family: inherit;
+    resize: vertical;
+}
+
+.form-contato button {
+    background-color: var(--cor-ativo);
+    color: var(--texto);
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color var(--transicao-suave);
+}
+
+.form-contato button:hover {
+    background-color: #e65c00;
+}
+
+/* Responsividade para formulário */
+@media (max-width: 600px) {
+    .curriculo-section, .contato-section {
+        padding: 0 15px;
+    }
+}
