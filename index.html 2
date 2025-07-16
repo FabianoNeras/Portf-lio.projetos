@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portfólio - Home</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="curriculo.html">Currículo</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="intro">
+            <h1>Fabiano Neras</h1>
+            <p>Designer e artista visual</p>
+            <p>Bem-vindo ao meu portfólio digital!</p>
+        </section>
+
+        <section class="contatos-home">
+            <h2>Contato rápido</h2>
+            <ul class="contatos-lista">
+                <li><a href="https://instagram.com/seuinstagram" target="_blank" rel="noopener">Instagram</a></li>
+                <li><a href="mailto:seuemail@example.com">E-mail</a></li>
+                <li><a href="https://wa.me/seunumerodetelefone" target="_blank" rel="noopener">WhatsApp</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Fabiano Neras</p>
+    </footer>
+</body>
+</html>
