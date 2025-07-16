@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portfólio - Contato</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="curriculo.html">Currículo</a></li>
+                <li><a href="contato.html" class="active">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contato-section">
+            <h1>Contato</h1>
+            <p>Quer entrar em contato comigo? Use as opções abaixo:</p>
+
+            <ul class="contatos-lista-vertical">
+                <li><strong>Instagram:</strong> <a href="https://instagram.com/seuinstagram" target="_blank" rel="noopener">@seuinstagram</a></li>
+                <li><strong>E-mail:</strong> <a href="mailto:seuemail@example.com">seuemail@example.com</a></li>
+                <li><strong>WhatsApp:</strong> <a href="https://wa.me/seunumerodetelefone" target="_blank" rel="noopener">+55 XX XXXXX-XXXX</a></li>
+            </ul>
+
+            <form action="#" method="POST" class="form-contato">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" placeholder="Seu nome" required />
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" placeholder="Seu e-mail" required />
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" placeholder="Escreva sua mensagem" rows="5" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Fabiano Neras</p>
+    </footer>
+</body>
+</html>
